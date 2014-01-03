@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 
-namespace WindowsFormsMyServiceClient
+namespace WPFclient
 {
     /// <summary>
     /// Interaction logic for Window1.xaml
@@ -85,7 +85,7 @@ namespace WindowsFormsMyServiceClient
             {
                 btnInvoke.IsEnabled = false;
                 txtBoxInfo.Text = "Proxy creation...";
-                myproxy = new WindowsFormsMyServiceClient.MyServiceClientNamespace.MyServiceDllClient();
+                myproxy = new WPFclient.MyServiceClientNamespace.MyServiceDllClient();
                 txtBoxInfo.Text += ".success!";
                 btnInvoke.IsEnabled = true;
                 btnConnect.IsEnabled = false;

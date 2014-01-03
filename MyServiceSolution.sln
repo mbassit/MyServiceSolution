@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostConsole", "HostConsole\HostConsole.csproj", "{14240950-E006-410F-B3A3-820C3705B5F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServiceDll", "MyServiceDll\MyServiceDll.csproj", "{60A0B990-B56D-4DB1-BBEA-7CC1D3A9B46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsMyServiceClient", "WindowsFormsMyServiceClient\WindowsFormsMyServiceClient.csproj", "{DC1343F2-179D-4A0C-977F-AE83F24FE7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFclient", "WPFclient\WPFclient.csproj", "{DC1343F2-179D-4A0C-977F-AE83F24FE7DF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{60A0B990-B56D-4DB1-BBEA-7CC1D3A9B46A} = {60A0B990-B56D-4DB1-BBEA-7CC1D3A9B46A}
 	EndProjectSection
